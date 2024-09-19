@@ -8,7 +8,8 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="flex-shrink-0">
-          <img src="/photos/logo.png" alt="Logo" className="w-36" />
+          <a href="/"><img src="/photos/logo.png" alt="Logo" className="w-36" /></a>
+          
         </div>
 
         {/* Search Bar Centered */}
@@ -35,7 +36,7 @@ const Navbar = () => {
             <CiHeart  size={20} />
             <span className="absolute -top-5 -right-2 bg-orange-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">3</span>
           </a>
-          <a href="#" className="relative hover:text-orange-600">
+          <a href="/cart" className="relative hover:text-orange-600">
             <CiShoppingCart size={20} />
             <span className="absolute -top-5 -right-2 bg-orange-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">5</span>
           </a>
@@ -46,7 +47,7 @@ const Navbar = () => {
       {/* Navigation Links */}
       <ul className="flex gap-6 text-sm text-gray-800 font-medium mt-4 justify-center w-full">
         <li>
-          <a href="#" className="hover:text-orange-600 relative group">
+          <a href="/ProductList" className="hover:text-orange-600 relative group">
             What's New
             <span className="block w-0 h-0.5 bg-gray-700 group-hover:w-full transition-all duration-300"></span>
           </a>
@@ -58,19 +59,19 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-orange-600 relative group">
+          <a href="/ProductList" className="hover:text-orange-600 relative group">
           Shop By Categories
             <span className="block w-0 h-0.5 bg-gray-700 group-hover:w-full transition-all duration-300"></span>
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-orange-600 relative group">
+          <a href="/ProductList" className="hover:text-orange-600 relative group">
           Shop By Collection
             <span className="block w-0 h-0.5 bg-gray-700 group-hover:w-full transition-all duration-300"></span>
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-orange-600 relative group">
+          <a href="/ProductList" className="hover:text-orange-600 relative group">
           Shop By Material
             <span className="block w-0 h-0.5 bg-gray-700 group-hover:w-full transition-all duration-300"></span>
           </a>

@@ -3,6 +3,7 @@ import Front from '../components/Front';
 import Promotions from '../components/Promotion';
 import Promotion2 from '../components/Promotion-2';
 import Promotion3 from '../components/Promotion-3';
+import ContactUs from '../components/ContactUs';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <Promotions/>
     <Promotion2/>
     <Promotion3/>
+    <ContactUs/>
     </div>
 
   );

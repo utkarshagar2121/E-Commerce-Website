@@ -41,19 +41,19 @@ const Promotion3 = () => {
   return (
     <div className="font-garamond p-4">
       {/* Header */}
-      <div className="relative mb-8">
+      <div className="relative my-8 font-garamond">
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center mb-2 w-full">
-            <div className="flex-grow h-[0.4px] bg-gradient-to-l from-gray-300 to-transparent"></div>
-            <IoDiamondOutline className="text-gray-400 mx-3" />
-            <div className="flex-grow h-[0.4px] bg-gradient-to-r from-gray-300 to-transparent"></div>
+            <div className="flex-grow h-[1px] bg-gradient-to-l from-gray-600 to-transparent"></div>
+            <IoDiamondOutline className="text-gray-500 mx-3" />
+            <div className="flex-grow h-[1px] bg-gradient-to-r from-gray-600 to-transparent"></div>
           </div>
-          <h2 className="text-4xl font-semibold text-orange-700 pb-1">
-            Everyday Elegance
+          <h2 className="text-4xl bg-gradient-to-r from-orange-400 to-orange-900 bg-clip-text text-transparent pb-3">
+            Shop By Category
           </h2>
-          <p className="text-sm text-gray-600 uppercase">DISCOVER ALL TRENDS</p>
+          <p className="text-sm text-orange-900 font-semibold">OUR EVERYDAY PIECES</p>
         </div>
-        <a href="#" className="absolute top-0 right-0 text-orange-600 hover:underline">
+        <a href="/ProductList" className="absolute bottom-0 right-5 text-orange-600 hover:underline mt-2">
           VIEW ALL
         </a>
       </div>

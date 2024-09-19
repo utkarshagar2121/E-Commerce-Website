@@ -23,12 +23,12 @@ const Footer = () => {
                             <h5 className="text-lg font-bold mb-3">Customer Service</h5>
                             <ul className="space-y-2">
                                 <li>
-                                    <a href="/" className="text-gray-600 hover:text-blue-500">
+                                    <a href="/contact" className="text-gray-600 hover:text-blue-500">
                                         Contact Us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/" className="text-gray-600 hover:text-blue-500">
+                                    <a href="/blog" className="text-gray-600 hover:text-blue-500">
                                         Our Blogs
                                     </a>
                                 </li>
@@ -48,12 +48,12 @@ const Footer = () => {
                             <h5 className="text-lg font-bold mb-3">About Us</h5>
                             <ul className="space-y-2">
                                 <li>
-                                    <a href="/" className="text-gray-600 hover:text-blue-500">
+                                    <a href="/about" className="text-gray-600 hover:text-blue-500">
                                         About Us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/" className="text-gray-600 hover:text-blue-500">
+                                    <a href="/contact" className="text-gray-600 hover:text-blue-500">
                                         FAQ
                                     </a>
                                 </li>

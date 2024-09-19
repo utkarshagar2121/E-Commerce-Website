@@ -16,15 +16,13 @@ const ph = [
 ];
 
 const Promotion2 = () => {
-  console.log(ph); // Confirm paths are correct
-
   return (
     <>
       {/* Division */}
       <div className="relative my-8 font-garamond">
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center mb-2 w-full">
-            <div className="flex-grow h-[0.4px] bg-gradient-to-l from-gray-600 to-transparent text-bold"></div>
+            <div className="flex-grow h-[1px] bg-gradient-to-l from-gray-600 to-transparent"></div>
             <IoDiamondOutline className="text-gray-500 mx-3" />
             <div className="flex-grow h-[1px] bg-gradient-to-r from-gray-600 to-transparent"></div>
           </div>
@@ -33,19 +31,19 @@ const Promotion2 = () => {
           </h2>
           <p className="text-sm text-orange-900 font-semibold">OUR EVERYDAY PIECES</p>
         </div>
-        <a href="#" className="absolute bottom-0 right-5 text-orange-600 hover:underline mt-2">
+        <a href="/ProductList" className="absolute bottom-0 right-5 text-orange-600 hover:underline mt-2">
           VIEW ALL
         </a>
       </div>
 
-      {/* Cards */}
-      <div className="overflow-x-auto scrollbar-hide">
-        <div className="flex w-full">
-          {ph.map(src => (
+      {/* Cards with custom scrollbar */}
+      <div className="overflow-x-auto px-9 scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300 scrollbar-thumb-rounded-full">
+        <div className="flex w-full space-x-4">
+          {ph.map((src) => (
             <div
               key={src}
-              className="flex-shrink-0 w-[200px] h-[400px] rounded-lg ml-2 bg-cover bg-no-repeat bg-center border border-gray-300" // Added border for debugging
-              style={{ backgroundImage: `url(${src})`, backgroundColor: 'gray' }} // Temporary background color
+              className="flex-shrink-0 w-[200px] h-[400px] rounded-lg bg-cover bg-no-repeat bg-center border border-gray-300"
+              style={{ backgroundImage: `url(${src})`, backgroundColor: 'gray' }}
             >
             </div>
           ))}

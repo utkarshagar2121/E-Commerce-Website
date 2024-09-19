@@ -10,6 +10,9 @@ export default {
         'garamond': ['EB Garamond', 'serif'],
       }
     },
+    plugins: [
+      require('tailwind-scrollbar'),
+    ],
   },
   plugins: [],
 }
