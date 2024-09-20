@@ -11,6 +11,7 @@ import ProductList from './pages/ProductList';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ProductDescriptionPage from './components/Promotion';
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
             <Route path='/cart' element={<Cart />} />
             <Route path='/checkout' element={<Checkout />} />
             <Route path='/productlist' element={<ProductList />} />
-            <Route path='productlist/:id' element={<ProductList />} />
+            <Route path='productlist/:id' element={<ProductDescriptionPage />} />
           </Routes>
         </div>
         <Footer/>
